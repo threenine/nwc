@@ -5,7 +5,9 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
 
     ],
-
+    typescript: {
+        strict: true
+    },
     tailwindcss: {
         config: {
             // @ts-ignore
