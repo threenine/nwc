@@ -41,7 +41,7 @@
 
 <script setup>
 import { Disclosure, DisclosureButton, DisclosurePanel} from '@headlessui/vue'
-import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline/index'
 import TwcLogo from "./TwcLogo";
 
 </script>
