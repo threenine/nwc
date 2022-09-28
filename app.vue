@@ -3,3 +3,9 @@
     <nuxt-page></nuxt-page>
   </nuxt-layout>
 </template>
+<script>
+
+export default {
+
+}
+</script>

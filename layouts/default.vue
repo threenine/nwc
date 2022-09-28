@@ -1,16 +1,17 @@
 <template>
-  <div>
-    <twc-header />
-    <slot />
+  <html class="h-full">
+  <div class="min-h-full">
+    <twc-header/>
+    <slot/>
   </div>
-
+  </html>
 </template>
 
 <script>
-import TwcHeader from "../components/TwcHeader";
+
 export default {
   name: "default",
-  components: {TwcHeader}
+
 }
 </script>
 
