@@ -9,7 +9,7 @@
           </nuxt-link>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
-          <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500">
+          <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
             <span class="sr-only">Open menu</span>
             <Bars3Icon class="h-6 w-6" aria-hidden="true" />
           </PopoverButton>
@@ -17,7 +17,7 @@
         <div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
           <PopoverGroup as="nav" class="flex space-x-10">
             <Popover v-slot="{ open }">
-              <PopoverButton :class="[open ? 'text-gray-900' : 'text-gray-500', 'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500']">
+              <PopoverButton :class="[open ? 'text-gray-900' : 'text-gray-500', 'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500']">
                 <span>Products</span>
                 <ChevronDownIcon :class="[open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500']" aria-hidden="true" />
               </PopoverButton>
@@ -28,7 +28,7 @@
                     <nuxt-link v-for="item in solutions" :key="item.name" :to="item.href" class="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-gray-50">
                       <div class="flex md:h-full lg:flex-col">
                         <div class="flex-shrink-0">
-                          <span class="inline-flex items-center justify-center h-10 w-10 rounded-md bg-orange-500 text-white sm:h-12 sm:w-12">
+                          <span class="inline-flex items-center justify-center h-10 w-10 rounded-md bg-green-500 text-white sm:h-12 sm:w-12">
                             <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
                           </span>
                         </div>
@@ -41,7 +41,7 @@
                               {{ item.description }}
                             </p>
                           </div>
-                          <p class="mt-2 text-sm font-medium text-orange-600 lg:mt-4">Learn more <span aria-hidden="true">&rarr;</span></p>
+                          <p class="mt-2 text-sm font-medium text-green-600 lg:mt-4">Learn more <span aria-hidden="true">&rarr;</span></p>
                         </div>
                       </div>
                     </nuxt-link>
@@ -60,7 +60,7 @@
               </transition>
             </Popover>
             <Popover v-slot="{ open }">
-              <PopoverButton :class="[open ? 'text-gray-900' : 'text-gray-500', 'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500']">
+              <PopoverButton :class="[open ? 'text-gray-900' : 'text-gray-500', 'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500']">
                 <span>About</span>
                 <ChevronDownIcon :class="[open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500']" aria-hidden="true" />
               </PopoverButton>
@@ -118,7 +118,7 @@
                         </ul>
                       </div>
                       <div class="mt-6 text-sm font-medium">
-                        <a href="#" class="text-orange-600 hover:text-orange-500"> View all posts <span aria-hidden="true">&rarr;</span></a>
+                        <a href="#" class="text-green-600 hover:text-green-500"> View all posts <span aria-hidden="true">&rarr;</span></a>
                       </div>
                     </div>
                   </div>
@@ -141,7 +141,7 @@
                 </nuxt-link>
               </div>
               <div class="-mr-2">
-                <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500">
+                <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
                   <span class="sr-only">Close menu</span>
                   <XMarkIcon class="h-6 w-6" aria-hidden="true" />
                 </PopoverButton>
@@ -151,7 +151,7 @@
               <nav>
                 <div class="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4">
                   <a v-for="item in solutions" :key="item.name" :href="item.href" class="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50">
-                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-orange-500 text-white sm:h-12 sm:w-12">
+                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-green-500 text-white sm:h-12 sm:w-12">
                       <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
                     </div>
                     <div class="ml-4 text-base font-medium text-gray-900">
@@ -160,7 +160,7 @@
                   </a>
                 </div>
                 <div class="mt-8 text-base">
-                  <a href="#" class="font-medium text-orange-600 hover:text-orange-500"> View all products <span aria-hidden="true">&rarr;</span></a>
+                  <a href="#" class="font-medium text-green-600 hover:text-green-500"> View all products <span aria-hidden="true">&rarr;</span></a>
                 </div>
               </nav>
             </div>
