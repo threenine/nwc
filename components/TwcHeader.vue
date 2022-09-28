@@ -74,9 +74,9 @@
                   <div class="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2">
                     <nav class="grid gap-y-10 px-4 py-8 bg-white sm:grid-cols-2 sm:gap-x-8 sm:py-12 sm:px-6 lg:px-8 xl:pr-12">
                       <div>
-                        <h3 class="text-base font-medium text-gray-500">About</h3>
+                        <h3 class="text-base font-medium text-gray-500">Legal</h3>
                         <ul role="list" class="mt-5 space-y-6">
-                          <li v-for="item in about" :key="item.name" class="flow-root">
+                          <li v-for="item in legal" :key="item.name" class="flow-root">
                             <a :href="item.href" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
                               <component :is="item.icon" class="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
                               <span class="ml-4">{{ item.name }}</span>
@@ -224,9 +224,8 @@ const solutions = [
 const callsToAction = [
   { name: 'Contact', href: 'tel:+44-116-318-3635', icon: PhoneIcon },
 ]
-const about = [
-  { name: 'About', href: '../about', icon: InformationCircleIcon },
-  { name: 'Privacy', href: '../privacy', icon: ShieldCheckIcon },
+const legal = [
+  { name: 'Privacy', href: '../legal/privacy', icon: ShieldCheckIcon },
 ]
 const resources = [
   { name: 'Blog', href: '../blog', icon: UserGroupIcon },
