@@ -8,6 +8,7 @@ export default defineNuxtConfig({
 
     tailwindcss: {
         config: {
+            darkMode: "media" ,
             // @ts-ignore
             plugins: ['@tailwindcss/typography', '@tailwindcss/aspect-ratio', '@tailwindcss/forms']
         },
