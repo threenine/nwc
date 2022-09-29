@@ -2,7 +2,7 @@
   <div>
     <div class="relative bg-yellow-500 ">
       <div class="absolute inset-0">
-        <img class="h-full w-full object-cover" src="~/assets/img/privacy.jpg" alt="threenine.co.uk privacy policy" />
+        <img class="h-full w-full object-cover" src="~/assets/img/privacy.jpg" alt="Natasha Woodfine Counselling - Privacy Policy" />
         <div class="absolute inset-0 bg-yellow-500 mix-blend-multiply" aria-hidden="true" />
       </div>
       <div class="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
