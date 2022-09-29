@@ -1,5 +1,5 @@
 <template>
-  <html class="h-full">
+  <html class="h-full bg-gray-50">
   <div class="min-h-full">
     <twc-header/>
     <slot/>
