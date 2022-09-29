@@ -3,6 +3,7 @@
   <div class="min-h-full">
     <twc-header/>
     <slot/>
+    <twc-footer />
   </div>
   </html>
 </template>
