@@ -1,19 +1,15 @@
 <template>
-  <html class="h-full bg-gray-50">
+  <html class="h-full">
   <div class="min-h-full">
     <twc-header/>
     <slot/>
-    <twc-footer />
+    <twc-footer/>
   </div>
   </html>
 </template>
 
-<script>
-
-export default {
-  name: "default",
-
-}
+<script lang="ts" setup>
+const route = useRoute()
 </script>
 
 <style scoped>

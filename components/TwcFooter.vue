@@ -6,9 +6,9 @@
         <div class="grid grid-cols-2 gap-8 xl:col-span-2">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-base font-medium text-white">Products</h3>
+              <h3 class="text-base font-medium text-white">Services</h3>
               <ul role="list" class="mt-4 space-y-4">
-                <li v-for="item in navigation.products" :key="item.name">
+                <li v-for="item in navigation.services" :key="item.name">
                   <nuxt-link :to="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</nuxt-link>
                 </li>
               </ul>
@@ -63,14 +63,13 @@
 import { defineComponent, h } from 'vue'
 
 const navigation = {
-  products: [
-    { name: 'API Template Pack', href: '../products/apitemplatepack' },
-    { name: 'Threenine.Data', href: '../products/data' },
-    { name: 'Stop Web Crawlers', href: '../products/stopwebcrawlers' },
+  services: [
+    { name: 'Counselling', href: '/' },
+
   ],
   about: [
     { name: 'Biography', href: '../about' },
-    { name: 'Blog', href: '../blog' }
+
   ],
   legal: [
     { name: 'Privacy', href: '../legal/privacy' },

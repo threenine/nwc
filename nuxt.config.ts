@@ -1,6 +1,5 @@
 
 export default defineNuxtConfig({
-
     typescript: {
         strict: true
     },
@@ -9,7 +8,6 @@ export default defineNuxtConfig({
     tailwindcss: {
         config: {
             darkMode: "media" ,
-            // @ts-ignore
             plugins: [ require('@tailwindcss/typography'), '@tailwindcss/aspect-ratio', '@tailwindcss/forms'],
             content: [
                 `components/**/*.{vue,js}`,
