@@ -10,7 +10,17 @@ export default defineNuxtConfig({
         config: {
             darkMode: "media" ,
             // @ts-ignore
-            plugins: ['@tailwindcss/typography', '@tailwindcss/aspect-ratio', '@tailwindcss/forms']
+            plugins: [ require('@tailwindcss/typography'), '@tailwindcss/aspect-ratio', '@tailwindcss/forms'],
+            content: [
+                `components/**/*.{vue,js}`,
+                `layouts/**/*.vue`,
+                `pages/**/*.vue`,
+                `composables/**/*.{js,ts}`,
+                `plugins/**/*.{js,ts}`,
+                `App.{js,ts,vue}`,
+                `app.{js,ts,vue}`
+            ]
         },
+
     },
 })
