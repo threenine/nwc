@@ -29,6 +29,15 @@
           Natasha Woodfine </h3>
         <h4 class="text-center text-1xl leading-[1.2] tracking-tighter text-gray-800 sm:text-[2.5rem] sm:leading-[3.5rem]">
           Professional Counsellor</h4>
+        <div class="relative mt-5">
+          <p class="text-3xl font-medium text-yellow-500 ">Are you searching for another way to manage what is going on for you in your life?</p>
+          <p class="text-lg mx-2 font-medium mt-5">
+            Seeking counselling can seem daunting, and it will be something that you might be considering. Exploring other people outside of your family and friendship circle that you do not want to burden or wish to understand what is going on for you, either currently and perhaps in the past. Talking to someone who is neutral and can be a way of releasing some of the confusion and inner tension that has felt like anxiety and frustration.</p>
+          <p class="text-lg mt-5 mx-2 font-medium">
+              A therapeutic relationship is unique, it is where you can say things that perhaps you have never shared before, and it is within this relationship that you can start to look further into your world.</p>
+
+        </div>
+        <div class="relative md:p-6" >
         <div class="columns-2 gap-8 mt-5">
           <div class="space-y-8 text-lg leading-8">
             <p v-for="item in benefits1" class="flex text-3xl -mx-2 text-slate-900">
@@ -48,6 +57,7 @@
               </svg>
               <span class="mx-2 font-medium"> {{ item.benefit }}</span></p>
           </div>
+        </div>
         </div>
       </div>
     </div>
