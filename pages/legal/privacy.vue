@@ -7,9 +7,9 @@
       </div>
       <div class="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
         <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">Privacy & Cookies</h1>
-        <p class="mt-6 max-w-3xl text-xl text-yellow-100">Version Number: 4.0</p>
-        <p class="mt-6 max-w-3xl text-xl text-yellow-100">Last Updated: 1 September 2022</p>
-        <p class="mt-6 max-w-5xl text-xl text-yellow-100">This privacy statement explains what personal data Threenine Consulting Limited collects from you and how we use that data.</p>
+        <p class="mt-6 max-w-3xl text-xl text-gray-100">Version Number: 4.0</p>
+        <p class="mt-6 max-w-3xl text-xl text-gray-100">Last Updated: 1 September 2022</p>
+        <p class="mt-6 max-w-5xl text-xl text-gray-100">This privacy statement explains what personal data Threenine Consulting Limited collects from you and how we use that data.</p>
       </div>
     </div>
     <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">

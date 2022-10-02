@@ -17,7 +17,7 @@
           </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-base font-medium text-white">About</h3>
+              <h3 class="text-base font-medium text-white">Find out more</h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.about" :key="item.name">
                   <nuxt-link :to="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</nuxt-link>
@@ -68,7 +68,7 @@ const navigation = {
 
   ],
   about: [
-    { name: 'Biography', href: '../about' },
+    { name: 'About Me', href: '../about' },
 
   ],
   legal: [
