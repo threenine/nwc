@@ -28,7 +28,7 @@
           <form class="flex flex-col lg:flex-row">
             <input type="email" placeholder="Enter your email address" class="flex-1 h-10 px-4 py-2 m-1  placeholder-gray-200 bg-transparent border-yellow-100 text-yellow-100 focus:outline-none focus:placeholder-transparent focus:ring-0" />
 
-            <button type="button" class="h-10 px-4 py-2 m-1 text-white transition-colors duration-200 transform bg-yellow-600 rounded-md hover:bg-yellow-100 hover:text-yellow-900 focus:outline-none focus:bg-yellow-400">
+            <button type="button" class="h-10 px-4 py-2 m-1 text-white transition-colors duration-200 transform bg-yellow-500 rounded-md hover:bg-yellow-100 hover:text-yellow-900 focus:outline-none focus:bg-yellow-400">
               Start
             </button>
           </form>
