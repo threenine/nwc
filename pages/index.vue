@@ -25,40 +25,20 @@
           </div>
         </div>
 
-        <h3 class="text-center text-yellow-500 text-2xl leading-[1.2] tracking-tighter sm:text-[3.5rem] sm:leading-[4.5rem]">
+        <h3 class="text-center text-yellow-500 text-3xl leading-[1.2] tracking-tighter sm:text-[3.5rem] sm:leading-[4.5rem]">
           Natasha Woodfine </h3>
-        <h4 class="text-center text-1xl leading-[1.2] tracking-tighter text-gray-800 sm:text-[2.5rem] sm:leading-[3.5rem]">
+        <h4 class="text-center text-2xl leading-[1.2] tracking-tighter text-gray-800 sm:text-[2.5rem] sm:leading-[3.5rem]">
           Professional Counsellor</h4>
         <div class="relative mt-5 p-5">
           <p class="text-3xl font-medium text-yellow-500 ">Are you searching for another way to manage what is going on for you in your life?</p>
           <p class="text-lg mx-2 font-medium mt-5">
-            Seeking counselling can seem daunting, and it will be something that you might be considering. Exploring other people outside of your family and friendship circle that you do not want to burden or wish to understand what is going on for you, either currently and perhaps in the past. Talking to someone who is neutral and can be a way of releasing some of the confusion and inner tension that has felt like anxiety and frustration.</p>
+            You are vital, and, I respect your journey for whatever has brought you to my page.  Seeking counselling can seem daunting, and it will be something that you might be considering. Exploring other people outside of your family and frienship circle that you do not want o burden or wish to understand what is going on for you, either currently and perhaps in the past. Talking to someone who is neutral and can be a way of releasing some of the confusion and inner tension that has felt like anxiety and frustration. A therapeutic relationship is unique, it is where you can say things that perhaps you have never shared before, and it is within this relationship that you can start to look further into your world.</p>
           <p class="text-lg mt-5 mx-2 font-medium">
-              A therapeutic relationship is unique, it is where you can say things that perhaps you have never shared before, and it is within this relationship that you can start to look further into your world.</p>
+            I offer you confidentiality, trust and acceptance to listen to your inner most thoughts and feelings, at your pace, where you feel you need to look further at and together you can, your growth and striving to be more accepting of yourself and believing in your own autonomy. Taking what you bring at your pace I will walk beside you to unravel the journey that has brought you to this point. I offer you unconditional positive regard to your uniqueness as a human being.</p>
 
+          <p class="text-lg mt-5 mx-2 font-medium">I will encourage you to develop confidence in your ability to rely on your ability to rely on your own instincts for what lays ahead.</p>
         </div>
-        <div class="relative p-5" >
-        <div class="columns-2 gap-8 mt-5">
-          <div class="space-y-8 text-lg leading-8">
-            <p v-for="item in benefits1" class="flex text-3xl -mx-2 text-slate-900">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                   stroke="currentColor" class="w-8 h-8 mx-2 text-yellow-500">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0"/>
-              </svg>
-              <span class="mx-2 font-medium text-lg  sm:text-3xl"> {{ item.benefit }}</span></p>
-          </div>
-          <div class="space-y-8 text-lg leading-8">
-            <p v-for="item in benefits2" class="flex  -mx-2  text-slate-900">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                   stroke="currentColor" class="w-8 h-8 mx-2 text-yellow-500 text-2xl sm:text-lg">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0"/>
-              </svg>
-              <span class="mx-2 font-medium text-lg  sm:text-3xl"> {{ item.benefit }}</span></p>
-          </div>
-        </div>
-        </div>
+
       </div>
     </div>
   </div>
@@ -67,16 +47,5 @@
 
 <script lang="ts" setup>
 
-const benefits1 = [
-  {benefit: "Unearth your potential"},
-  {benefit: "Understand your real power"},
-  {benefit: "Find your purpose and value"},
-]
-
-const benefits2 = [
-  {benefit: "Understand and discover change"},
-  {benefit: "Overcome depression"},
-  {benefit: "Self Compassion"},
-]
 
 </script>
