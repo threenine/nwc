@@ -9,7 +9,7 @@
         <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">Privacy & Cookies</h1>
         <p class="mt-6 max-w-3xl text-xl text-gray-100">Version Number: 4.0</p>
         <p class="mt-6 max-w-3xl text-xl text-gray-100">Last Updated: 1 September 2022</p>
-        <p class="mt-6 max-w-5xl text-xl text-gray-100">This privacy statement explains what personal data Threenine Consulting Limited collects from you and how we use that data.</p>
+        <p class="mt-6 max-w-5xl text-xl text-gray-100">This privacy statement explains what personal data Natasha Woodfine Counselling collects from you and how we use that data.</p>
       </div>
     </div>
     <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
@@ -17,18 +17,16 @@
       <div class="pt-12 sm:pt-16 lg:pt-20 max-w-prose">
         <h2 class="text-4xl font-bold tracking-tight text-yellow-500 sm:text-5xl">Introduction</h2>
         <div class="mt-6 space-y-6 text-gray-500">
-          <p class="prose prose-lg">We treat privacy and confidentiality very seriously at Threenine Consulting Limited and comply with all aspects of the UK’s data protection legislative framework, which includes the retained EU law version of the General Data Protection Regulation ((EU) 2016/679) (UK GDPR) and the Data Protection Act 2018 (DPA 2018) E. </p>
+          <p class="prose prose-lg">We treat privacy and confidentiality very seriously at Natasha Woodfine Counselling and comply with all aspects of the UK’s data protection legislative framework, which includes the retained EU law version of the General Data Protection Regulation ((EU) 2016/679) (UK GDPR) and the Data Protection Act 2018 (DPA 2018) E. </p>
           <p class="prose prose-base leading-7 "> In line with this we have developed the below privacy notice to detail exactly what personal information we collect and use. </p>
         </div>
       </div>
       <div class="pt-12 sm:pt-16 lg:pt-20 max-w-prose">
         <h3 class="text-2xl font-bold tracking-tight text-yellow-500 sm:text-2xl">Company Information</h3>
         <div class="mt-6 space-y-6 text-gray-500">
-          <p class="prose prose-base leading-7"><b>Company Details: </b> Threenine Consulting Limited</p>
+          <p class="prose prose-base leading-7"><b>Organisation Details: Natasha Woodfine Counselling</b> </p>
           <p class="prose prose-base leading-7"><b>Registered Office: </b> 99 Wey Hill, Haslemere, Surrey, GU27 1HT</p>
-          <p class="prose prose-base leading-7"><b>Email Contact: </b> hello@threenine.co.uk</p>
-          <p class="prose prose-base leading-7"><b>Registered in England and Wales: </b> 05608093</p>
-          <p class="prose prose-base leading-7"><b>VAT Number: </b> GB900383850</p>
+          <p class="prose prose-base leading-7"><b>Email Contact: </b> privacy@natashawoodine.com</p>
           <p class="prose prose-base leading-7"><b>ICO Registration Number: </b> ZA904076</p>
         </div>
       </div>
@@ -112,7 +110,7 @@
           <p class="prose prose-base leading-7">We may disclose your personal data to third-party technical partners that we work with to provide services to you, whether through our website or by other means of communication, for the purposes of our contract with those third-party technical partners and to best ensure we are able to perform our contract with you. Some of our third-party technical partners may be located outside the UK and the Data Export provisions below shall apply. Our contracts with specialist technical partners contain confidentiality obligations and only permit them to process any personal data as instructed by us and in accordance with UK data protection law.</p>
           <p class="prose prose-base leading-7">Our third-party technical partners provide services to us which include our CRM platform, email deployment, advertising and marketing, security and system performance monitoring, research, data hosting and auditing. Please contact us for more details of these if you have further questions about these.</p>
           <p class="prose prose-base leading-7">If you are registered to receive emails, your information will additionally be stored securely in an Email Marketing Service (EMS), again made available only to the person(s) who require it to respond to this registration.</p>
-          <p class="prose prose-base leading-7">If visiting Threenine Consulting at our offices, the personal information provided to our check-in service will be recorded securely in that service and delivered only to those people you are there to meet.</p>
+          <p class="prose prose-base leading-7">If visiting Natasha Woodfine Counselling at our offices, the personal information provided to our check-in service will be recorded securely in that service and delivered only to those people you are there to meet.</p>
           <p class="prose prose-base leading-7">Personal information supplied as part of a contract signature process will be stored in a secure contracts repository and/or in an electronic signature management tool, made available only to the relevant personnel.</p>
 
           <p class="prose prose-base leading-7">When you sign up to be a usability tester, your information will be securely stored and made available only to those people who require access to it to facilitate the matching of your details to suitable vacancies and your remuneration in the case of being successfully placed within a project.</p>
@@ -146,7 +144,7 @@
       <div class="pt-12 sm:pt-16 lg:pt-20 max-w-prose">
         <h3 class="text-2xl font-bold tracking-tight text-yellow-500 sm:text-2xl">How you can update your personal information</h3>
         <div class="mt-6 space-y-6 text-gray-500">
-          <p class="prose prose-base leading-7">If at any point you believe the information we hold about you is incorrect you can request to see this information and have it corrected, restricted or deleted by emailing us at privacy@threenine.co.uk. An unsubscribe option is additionally included in every marketing email you receive.</p>
+          <p class="prose prose-base leading-7">If at any point you believe the information we hold about you is incorrect you can request to see this information and have it corrected, restricted or deleted by emailing us at privacy@natashawoodfine.com. An unsubscribe option is additionally included in every marketing email you receive.</p>
 
         </div>
       </div>
@@ -194,7 +192,7 @@
         <h3 class="text-2xl font-bold tracking-tight text-yellow-500 sm:text-2xl">Your right to make a complaint</h3>
         <div class="mt-6 space-y-6 text-gray-500">
           <p class="prose prose-base leading-7">If you think that our processing of your personal data infringes data protection laws, you have the right to lodge a complaint at any time to the Information Commissioner’s Office the UK regulator for data protection issues (www.ico.org.uk).</p>
-          <p class="prose prose-base leading-7">We would, however, appreciate the chance to deal with your concerns before you approach the ICO so please contact us in the first instance at privacy@threenine.co.uk and we assure you that your concerns will be promptly and properly investigated.</p>
+          <p class="prose prose-base leading-7">We would, however, appreciate the chance to deal with your concerns before you approach the ICO so please contact us in the first instance at privacy@natashawoodfine.com and we assure you that your concerns will be promptly and properly investigated.</p>
         </div>
       </div>
       <div class="pt-12 sm:pt-16 lg:pt-20 max-w-prose">
@@ -232,7 +230,7 @@
 
         <h3 class="text-2xl font-bold tracking-tight text-yellow-500 sm:text-2xl">Opting out of cookies</h3>
         <div class="mt-6 space-y-6 text-gray-500">
-          <p class="prose prose-base leading-7">In using the Threenine Consulting website, you are consenting to the use of cookies. You are of course able to change your cookie settings within your browser at any time.</p>
+          <p class="prose prose-base leading-7">In using the Natasha Woodfine  website, you are consenting to the use of cookies. You are of course able to change your cookie settings within your browser at any time.</p>
           <p class="prose prose-base leading-7">If you do not know what cookies are, or how to control or delete them, we recommend you visit <a href="https://www.aboutcookies.org/" target="_blank">www.aboutcookies.org</a> or <a href="https://www.allaboutcookies.org" target="_blank">www.allaboutcookies.org</a> for guidance.</p>
           <p class="prose prose-base leading-7">To opt out of being tracked by Google Analytics across all websites visit  <a href="http://tools.google.com/dlpage/gaoptout" target="_blank">http://tools.google.com/dlpage/gaoptout</a> </p>
         </div>
@@ -240,8 +238,8 @@
       <div class="pt-12 sm:pt-16 lg:pt-20 max-w-prose mb-5">
         <h3 class="text-2xl font-bold tracking-tight text-yellow-500 sm:text-2xl">Copyright</h3>
         <div class="mt-6 space-y-6 text-gray-500">
-          <p class="prose prose-base leading-7">Images, text, software, documentation, electronic text and image files, audio and video files and clips, and other materials on the Threenine Consulting website are protected by copyright laws and may be covered by other restrictions as well. Threenine Consulting retains all rights, including copyright, in data, image, text, and any other information contained in these files. Threenine Consulting expressly prohibits the copying of any protected materials on this website, except for the purposes of fair use as defined in copyright laws and as defined below.</p>
-          <p class="prose prose-base leading-7">Fair use of copyrighted material includes the use of protected materials for non-commercial educational purposes, such as teaching, scholarship, research, commentary and news reporting. Unless otherwise noted, users who wish to download or print text, audio, video, image and other files from the Threenine Consulting website for such uses are welcome to do so with our express permission. Users must cite the author and source of this material as they would material from any printed work; the citation should include the URL https://threenine.co.uk. By downloading, printing, or otherwise using text, audio, video, image and other files from this website, whether accessed directly from this website or via other sites or mechanisms, users agree that they will limit their use of such files to fair use and will not violate Threenine Consulting or any other party’s proprietary rights.</p>
+          <p class="prose prose-base leading-7">Images, text, software, documentation, electronic text and image files, audio and video files and clips, and other materials on the Natasha Woodfine  website are protected by copyright laws and may be covered by other restrictions as well. Natasha Woodfine  retains all rights, including copyright, in data, image, text, and any other information contained in these files. Natasha Woodfine  expressly prohibits the copying of any protected materials on this website, except for the purposes of fair use as defined in copyright laws and as defined below.</p>
+          <p class="prose prose-base leading-7">Fair use of copyrighted material includes the use of protected materials for non-commercial educational purposes, such as teaching, scholarship, research, commentary and news reporting. Unless otherwise noted, users who wish to download or print text, audio, video, image and other files from the Natasha Woodfine  website for such uses are welcome to do so with our express permission. Users must cite the author and source of this material as they would material from any printed work; the citation should include the URL https://natashawoodfine.com. By downloading, printing, or otherwise using text, audio, video, image and other files from this website, whether accessed directly from this website or via other sites or mechanisms, users agree that they will limit their use of such files to fair use and will not violate Natasha Woodfine  or any other party’s proprietary rights.</p>
           <p class="prose prose-base leading-7"></p>
           <p class="prose prose-base leading-7"></p>
         </div>

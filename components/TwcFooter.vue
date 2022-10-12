@@ -53,7 +53,7 @@
             <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
           </a>
         </div>
-        <nuxt-link to="https://find-and-update.company-information.service.gov.uk/company/05608093" class="mt-8 text-base text-gray-400 md:order-1 md:mt-0">&copy THREENINE CONSULTING LIMITED registered in England & Wales 05608093 VAT no. GB 900383850</nuxt-link>
+        <p class="mt-8 text-base text-gray-400 md:order-1 md:mt-0">&copy Natasha Woodfine Counselling - All rights reserved</p>
       </div>
     </div>
   </footer>
