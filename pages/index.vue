@@ -1,42 +1,32 @@
 <template>
   <div>
     <twc-hero/>
-
     <div class="relative bg-gray-50 py-24 sm:py-40">
-
       <div class="container mx-auto">
-        <div
-            class="pointer-events-none absolute -top-4 right-full -mr-14 hidden w-1/2 origin-top-right rotate-12 xl:block">
-          <div class="aspect-w-4 aspect-h-5">
-            <div>
-              <div class="absolute top-0 left-[-200%] -right-1/4 h-px opacity-30"
-                   style="background-image:linear-gradient(to right, rgba(148, 163, 184, 0) 33%, rgb(148, 163, 184) 80%, rgba(148, 163, 184, 0) 100%)"></div>
-              <div class="absolute top-[-125%] right-0 -bottom-1/3 w-px opacity-30"
-                   style="background-image:radial-gradient(closest-corner at 50% 66%, rgb(148, 163, 184), rgba(148, 163, 184, 0))"></div>
-              <div class="absolute bottom-0 left-[-200%] -right-1/2 h-px opacity-30"
-                   style="background-image:linear-gradient(to right, rgba(148, 163, 184, 0) 33%, rgb(148, 163, 184) 80%, rgba(148, 163, 184, 0) 100%)"></div>
-              <div class="absolute top-[-100%] left-0 -bottom-1/2 w-px opacity-30"
-                   style="background-image:radial-gradient(closest-corner at 50% 66%, rgb(148, 163, 184), rgba(148, 163, 184, 0))"></div>
-              <div
-                  class="absolute top-[-0.5px] left-0 h-[2px] w-28 -translate-x-1/3 rounded-full bg-gradient-to-r from-blue-500"></div>
-              <div
-                  class="absolute bottom-[-0.5px] right-0 h-[2px] w-28 translate-x-4 rounded-full bg-gradient-to-l from-violet-400"></div>
-            </div>
+        <div class="relative px-4 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-prose text-lg">
+
+            <p class="mt-8 text-xl leading-8 text-gray-500">Welcome you to my counselling website. I am a fully qualified counsellor working in the Swindon area. I offer counselling to adults and young people from age 16 upwards, covering a wide range  of issues.</p>
           </div>
-        </div>
+          <div class="prose prose-lg prose-indigo mx-auto mt-6 text-gray-500">
+            <span class="text-2xl font-bold">About counselling</span>
+            <p>Counselling can support you to help yourself in a safe and confidential environment, offering you an opportunity to feel less isolated in your situation. To talk and be truly heard by someone who is outside of your usual social circle, to share your thoughts and feelings which you cannot share elsewhere in your life.</p>
+            <p>Having the confidential space to talk can help some people find a way forward. Counselling isn’t about giving advice, it is about being aware of the choices you have and which ones feel right for you to make. </p>
 
-        <h3 class="text-center text-yellow-500 text-3xl leading-[1.2] tracking-tighter sm:text-[3.5rem] sm:leading-[4.5rem]">
-          Natasha Woodfine </h3>
-        <h4 class="text-center text-2xl leading-[1.2] tracking-tighter text-gray-800 sm:text-[2.5rem] sm:leading-[3.5rem]">
-          Professional Counsellor</h4>
-        <div class="relative mt-5 p-5">
-          <p class="text-3xl font-medium text-yellow-500 ">Are you searching for another way to manage what is going on for you in your life?</p>
-          <p class="text-lg mx-2 font-medium mt-5">
-            You are vital, and, I respect your journey for whatever has brought you to my page.  Seeking counselling can seem daunting, and it will be something that you might be considering. Exploring other people outside of your family and frienship circle that you do not want o burden or wish to understand what is going on for you, either currently and perhaps in the past. Talking to someone who is neutral and can be a way of releasing some of the confusion and inner tension that has felt like anxiety and frustration. A therapeutic relationship is unique, it is where you can say things that perhaps you have never shared before, and it is within this relationship that you can start to look further into your world.</p>
-          <p class="text-lg mt-5 mx-2 font-medium">
-            I offer you confidentiality, trust and acceptance to listen to your inner most thoughts and feelings, at your pace, where you feel you need to look further at and together you can, your growth and striving to be more accepting of yourself and believing in your own autonomy. Taking what you bring at your pace I will walk beside you to unravel the journey that has brought you to this point. I offer you unconditional positive regard to your uniqueness as a human being.</p>
-
-          <p class="text-lg mt-5 mx-2 font-medium">I will encourage you to develop confidence in your ability to rely on your ability to rely on your own instincts for what lays ahead.</p>
+            <span class="text-2xl font-bold">Why counselling</span>
+            <p>Sometimes it is easy to feel that you are expected to be able to cope with everything that is going on….</p>
+            <ul role="list">
+              <li>You might be struggling to understand your own feelings and what is going on for you at this moment. </li>
+              <li>You may be experiencing distress, anxiety and emotion about a situation or trying to manage a crisis or life changing event. </li>
+              <li>It may be that you feel lost, a low self esteem or depressed and are struggling to understand how or why you feel this way. </li>
+              <li>You might feel emotional and uncertain about a situation, person or relationship.</li>
+              <li>You may think that your emotional well-being is not what it ought to be or have something on your mind………</li>
+            </ul>
+            <p>Talking about these situations can feel daunting, however reaching out to talk could be what it takes to stop suppressing these concerns, which can help your well-being and not lead to depression or anxiety.</p>
+            <span class="text-2xl font-bold">How can we work together</span>
+            <p>My approach to counselling is a person-centred one. I feel the relationship between client and counsellor is fundamental in helping to provide the supportive environment where you can have the opportunity to gain a better understanding of yourself and the challenges you are facing. Here you will be able to explore what is concerning you, without judgement, keeping at your pace where I will truly hear you as you present your thoughts and feelings. I am led by you the client, and believe that given the right environment you hold the answers to your own freedom and growth. I will listen and explore what is going on for you and reflect back the impact this has had on you. </p>
+            <p>Your journey to seek counselling is as unique as you are which is my fundamental belief within the person centred modality that I work. </p>
+          </div>
         </div>
 
       </div>
