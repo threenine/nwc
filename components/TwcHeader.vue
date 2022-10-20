@@ -5,7 +5,7 @@
       <div class="text-center max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-center md:space-x-10">
         <div class="text-center">
           <nuxt-link class="flex" to="/">
-           <h1 class="text-2xl text-center">Natasha Woodfine Counselling</h1>
+           <h1 class="text-2xl text-center font-bold text-gray-500">Natasha Woodfine Counselling</h1>
           </nuxt-link>
         </div>
       </div>
