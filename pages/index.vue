@@ -4,9 +4,11 @@
     <div class="relative bg-gray-50 py-24 sm:py-40">
       <div class="container mx-auto">
         <div class="relative px-4 sm:px-6 lg:px-8">
+          <div class="prose prose-lg prose-indigo mx-auto mt-6 text-gray-500">
+          <span class="text-3xl font-bold">Welcome</span>
+          </div>
           <div class="mx-auto max-w-prose text-lg">
-
-            <p class="mt-8 text-xl leading-8 text-gray-500">Welcome you to my counselling website. I am a fully qualified counsellor working in the Swindon area. I offer counselling to adults and young people from age 16 upwards, covering a wide range  of issues.</p>
+            <p class="mt-8 text-xl leading-8 text-gray-500">I am a fully qualified counsellor working in the Swindon area. I offer counselling to adults and young people from age 16 upwards, covering a wide range  of issues.</p>
           </div>
           <div class="prose prose-lg prose-indigo mx-auto mt-6 text-gray-500">
             <span class="text-2xl font-bold">About counselling</span>
