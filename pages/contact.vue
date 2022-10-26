@@ -15,11 +15,10 @@
             <figure>
               <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
 
-                <img class="rounded-lg object-cover object-center shadow-lg" src="~/assets/img/natasha-woodfine.jpg" alt="Natasha Woodfine" />
+                <img class="lg:rounded-lg h-24 w-24  object-cover object-center shadow-lg" src="~/assets/img/natasha-woodfine.jpg" alt="Natasha Woodfine" />
               </div>
-              <figcaption class="mt-3 flex text-sm text-gray-500">
-                <span class="ml-2">Natasha Woodfine</span>
-              </figcaption>
+
+
             </figure>
           </div>
         </div>
