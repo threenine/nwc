@@ -15,7 +15,7 @@
             <figure>
               <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
 
-                <img class="lg:rounded-lg h-24 w-24  object-cover object-center shadow-lg" src="~/assets/img/natasha-woodfine.jpg" alt="Natasha Woodfine" />
+                <img class="lg:rounded-lg h-32 w-32 rounded-full object-cover object-center shadow-lg" src="~/assets/img/natasha-woodfine.jpg" alt="Natasha Woodfine" />
               </div>
 
 
