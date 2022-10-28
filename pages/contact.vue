@@ -95,17 +95,17 @@ interface IContactForm {
   lastName: string,
   email: string,
   message:string,
-};
+}
 
 let contactForm: IContactForm = {
   firstName: "",
   lastName: "",
   email: "",
-  message: "",
-};
+  message: ""
+}
 
 async function sendEmail(){
-     await emailjs.sendForm(config.emailjs_api_service_id, config.emailjs_api_template_id, contactForm);
+     await emailjs.sendForm(config.emailjs_api_service_id, config.emailjs_api_template_id, contactForm, config.emailjs_ap_public_key);
 
 }
 </script>
