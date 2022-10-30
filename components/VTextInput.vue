@@ -10,10 +10,6 @@
                :type="type"
         />
         <VErrorMessage :name="name" as="div" class="text-red-600 dark:text-red-500"/>
-        <div class="debug" v-if="debug">
-          <pre>{{ errors }}</pre>
-          <pre>{{ meta }}</pre>
-        </div>
       </VField>
     </div>
 </template>
@@ -35,15 +31,7 @@ const props = defineProps({
   placeholder: {
     type: String,
     default: "",
-  },
-  leftIcon: {
-    type: String,
-    default: "",
-  },
-  debug: {
-    type: Boolean,
-    default: false,
-  },
+  }
 });
 </script>
 
