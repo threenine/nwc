@@ -80,7 +80,6 @@
 
 import { object, string, ref as yupRef } from "yup";
 import { configure } from "vee-validate";
-const debug = ref(false);
 import emailjs from "emailjs-com";
 
 
