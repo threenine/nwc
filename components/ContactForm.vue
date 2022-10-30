@@ -8,7 +8,6 @@
     <div>
     <VTextInput
         type="text"
-        class="block w-full rounded-md border-gray-300 shadow-sm focus:border-grape-500 focus:ring-grape-500 sm:text-sm"
         name="firstName"
         label="First Name"
         placeholder="Firstname"
@@ -97,23 +96,18 @@ const schema = object({
       .required()
       .email()
       .label("Email Address"),
-  firstName: string().required().label("Firstname is required"),
-  lastName: string().required().label("Lastname is required"),
-  message: string().required().max(500).label("Lastname is required")
+  firstName: string().required().label("Firstname"),
+  lastName: string().required().label("Lastname"),
+  message: string().required().max(500).label("a message")
 });
 const sendEmail = (values, actions) => {
   console.log(values);
-  console.log(config.emailjs_api_service_id)
-   emailjs.send(config.emailjs_api_service_id, config.emailjs_api_template_id, values, config.emailjs_ap_public_key);
+  emailjs.send(config.emailjs_api_service_id, config.emailjs_api_template_id, values, config.emailjs_ap_public_key);
 
  actions.resetForm();
 }
 
 const initialValues = { email: "", firstName: "", lastName: "", message: "" };
-/*async function sendEmail(){
-  console.log('I have been hit gaz')
-  //emailjs.sendForm(config.emailjs_api_service_id, config.emailjs_api_template_id, Ref(''), config.emailjs_ap_public_key);
 
-}*/
 </script>
 
