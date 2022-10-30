@@ -104,7 +104,7 @@ const schema = object({
 });
 const sendEmail = (values, actions) => {
   console.log(values);
-  console.log(actions)
+  console.log(config.emailjs_api_service_id)
    emailjs.send(config.emailjs_api_service_id, config.emailjs_api_template_id, values, config.emailjs_ap_public_key);
 
  actions.resetForm();
