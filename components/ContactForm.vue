@@ -6,13 +6,13 @@
          @submit="sendEmail"
   >
     <div>
-    <VTextInput
-        type="text"
-        name="firstName"
-        label="First Name"
-        placeholder="Firstname"
+      <VTextInput
+          type="text"
+          name="firstName"
+          label="First Name"
+          placeholder="Firstname"
 
-    />
+      />
     </div>
     <div>
       <VTextInput
@@ -77,8 +77,8 @@
 
 <script setup>
 
-import { object, string, ref as yupRef } from "yup";
-import { configure } from "vee-validate";
+import {object, string} from "yup";
+import {configure} from "vee-validate";
 import emailjs from "emailjs-com";
 
 
@@ -101,15 +101,12 @@ const schema = object({
   message: string().required().max(500).label("a message")
 });
 const sendEmail = (values, actions) => {
-    emailjs.send(config.public.emailjs_api_service_id, config.public.emailjs_api_template_id, values, config.public.emailjs_ap_public_key)
-        .then( () => {
-          actions.resetForm();
-        });
-
-
+  emailjs.send(config.public.emailjs_api_service_id, config.public.emailjs_api_template_id, values, config.public.emailjs_ap_public_key)
+      .then(() => {
+        actions.resetForm();
+      });
 }
-
-const initialValues = { email: "", firstName: "", lastName: "", message: "" };
+const initialValues = {email: "", firstName: "", lastName: "", message: ""};
 
 </script>
 

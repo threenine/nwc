@@ -1,4 +1,4 @@
-import { defineRule } from "vee-validate";
+import {defineRule} from "vee-validate";
 import rules from "@vee-validate/rules";
 import {defineNuxtPlugin} from "#app";
 
