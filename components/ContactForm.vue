@@ -85,10 +85,10 @@ import emailjs from "emailjs-com";
 const config = useRuntimeConfig()
 
 configure({
-  validateOnBlur: true, // controls if `blur` events should trigger validation with `handleChange` handler
-  validateOnChange: true, // controls if `change` events should trigger validation with `handleChange` handler
-  validateOnInput: false, // controls if `input` events should trigger validation with `handleChange` handler
-  validateOnModelUpdate: true, // controls if `update:modelValue` events should trigger validation with `handleChange` handler
+  validateOnBlur: true,
+  validateOnChange: true,
+  validateOnInput: false,
+  validateOnModelUpdate: true,
 });
 
 const schema = object({
@@ -101,10 +101,12 @@ const schema = object({
   message: string().required().max(500).label("a message")
 });
 const sendEmail = (values, actions) => {
-  console.log(values);
-  emailjs.send(config.emailjs_api_service_id, config.emailjs_api_template_id, values, config.emailjs_ap_public_key);
+    emailjs.send(config.public.emailjs_api_service_id, config.public.emailjs_api_template_id, values, config.public.emailjs_ap_public_key)
+        .then( () => {
+          actions.resetForm();
+        });
 
- actions.resetForm();
+
 }
 
 const initialValues = { email: "", firstName: "", lastName: "", message: "" };
