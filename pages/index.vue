@@ -18,7 +18,7 @@
 
             <span class="text-2xl font-bold">Why counselling</span>
             <p>Sometimes it is easy to feel that you are expected to be able to cope with everything that is going on.</p>
-            <ul role="list"  class="list-disc">
+            <ul role="list"  class="list-disc list-inside">
               <li>You might be struggling to understand your own feelings and what is going on for you at this moment. </li>
               <li>You may be experiencing distress, anxiety and emotion about a situation or trying to manage a crisis or life changing event. </li>
               <li>It may be that you feel lost, have low self esteem or depressed and are struggling to understand how or why you feel this way.  </li>
