@@ -65,7 +65,7 @@
     <div class="text-right sm:col-span-2">
       <button
           class="inline-flex justify-center rounded-md border border-transparent bg-gray-600 py-2 px-4 text-sm font-medium text-gray-100 shadow-sm hover:bg-grape-700 focus:outline-none focus:ring-2 focus:ring-grape-500 focus:ring-offset-2"
-          :class="{ 'is-primary': formMeta.valid }"
+          :class="{ 'text-green-600 dark:text-green-500': formMeta.valid }"
           :disabled="!formMeta.valid"
           type="submit"
       >
