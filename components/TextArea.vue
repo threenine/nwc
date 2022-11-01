@@ -1,15 +1,15 @@
 <template>
-  <VField :name="name" v-slot="{ field, meta, errors}">
+  <Field :name="name" v-slot="{ field, meta, errors}">
     <textarea v-bind="field"
               rows="4"
-              :class="{'text-green-600 dark:text-green-500' : meta.valid && meta.touched ,
+              :class="{'border-green-600 dark:border-green-500' : meta.valid && meta.touched ,
                         'text-red-600 dark:text-red-500' : !meta.valid && meta.touched
                }"
               :placeholder="placeholder"
 
     />
-    <VErrorMessage :name="name" as="div" class="text-red-600 dark:text-red-500"/>
-  </VField>
+    <ErrorMessage :name="name" as="div" class="text-red-600 dark:text-red-500"/>
+  </Field>
 </template>
 
 <script>

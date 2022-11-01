@@ -1,12 +1,12 @@
 <template>
-  <VForm ref="contact" class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+  <Form ref="contact" class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
          :validation-schema="schema"
          :initial-values="initialValues"
          v-slot="{ meta: formMeta, errors: formErrors }"
          @submit="sendEmail"
   >
     <div>
-      <VTextInput
+      <TextInput
           type="text"
           name="firstName"
           label="First Name"
@@ -15,7 +15,7 @@
       />
     </div>
     <div>
-      <VTextInput
+      <TextInput
           type="text"
           name="lastName"
           label="Last Name"
@@ -23,7 +23,7 @@
       />
     </div>
     <div class="sm:col-span-2">
-      <VTextInput
+      <TextInput
           type="email"
           name="email"
           label="Email"
@@ -35,7 +35,7 @@
     <div class="sm:col-span-2">
 
       <div class="mt-1">
-        <VTextArea
+        <TextArea
             type="text"
             as="textarea"
             name="message"
@@ -72,7 +72,7 @@
         Submit
       </button>
     </div>
-  </VForm>
+  </Form>
 </template>
 
 <script setup>
