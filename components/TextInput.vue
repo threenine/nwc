@@ -4,7 +4,7 @@
         <input v-bind="field"
                class="block w-full rounded-md border-gray-300 shadow-sm focus:border-grape-500 focus:ring-grape-500 sm:text-sm"
                :class="{'border-green-600 dark:border-green-500' : meta.valid && meta.touched ,
-                        'text-red-600 dark:text-red-500' : !meta.valid && meta.touched
+                        'border-red-600 dark:border-red-500' : !meta.valid && meta.touched
                }"
                :placeholder="placeholder"
                :type="type"
