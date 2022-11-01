@@ -9,8 +9,7 @@
       <TextInput
           type="text"
           name="firstName"
-          label="First Name"
-          placeholder="Firstname"
+         placeholder="Firstname"
 
       />
     </div>
@@ -18,7 +17,6 @@
       <TextInput
           type="text"
           name="lastName"
-          label="Last Name"
           placeholder="Lastname"
       />
     </div>
@@ -26,20 +24,16 @@
       <TextInput
           type="email"
           name="email"
-          label="Email"
           placeholder="Email"
       />
     </div>
 
 
     <div class="sm:col-span-2">
-
-      <div class="mt-1">
         <TextArea
             type="text"
             as="textarea"
             name="message"
-            label="How Can I help"
             placeholder="How can I help"
             class="block w-full rounded-md border-gray-300 shadow-sm focus:border-gray-500 focus:ring-gray-500 sm:text-sm"
         />
@@ -47,7 +41,7 @@
           <span id="how-can-we-help-description" class="text-xs text-gray-500">Max. 500 characters</span>
         </div>
       </div>
-    </div>
+
     <template v-if="Object.keys(formErrors).length">
       <p class="text-red-600 dark:text-red-500">
         Please correct the following errors:

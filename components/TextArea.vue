@@ -1,4 +1,5 @@
 <template>
+
   <Field :name="name" v-slot="{ field, meta, errors}">
     <textarea v-bind="field"
               rows="4"
@@ -10,9 +11,23 @@
     />
     <ErrorMessage :name="name" as="div" class="text-red-600 dark:text-red-500"/>
   </Field>
+
 </template>
 
-<script>
-
+<script setup>
+const props = defineProps({
+  type: {
+    type: String,
+    default: "text",
+  },
+  name: {
+    type: String,
+    required: true,
+  },
+  placeholder: {
+    type: String,
+    default: "",
+  }
+});
 </script>
 
