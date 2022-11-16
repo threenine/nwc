@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     typescript: {
         strict: true
     },
-    buildModules: [ '@nuxtjs/tailwindcss'],
+    modules: [ '@nuxtjs/tailwindcss'],
 
     tailwindcss: {
         config: {
