@@ -17,4 +17,3 @@
 <style scoped>
 
 </style>
-https://tailwindui.com/img/logos/mark.svg?color=white
