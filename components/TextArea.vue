@@ -2,7 +2,7 @@
 
   <Field :name="name" v-slot="{ field, meta, errors}">
     <textarea v-bind="field"
-              rows="4"
+              rows="10"
               :class="{'border-green-600 dark:border-green-500' : meta.valid && meta.touched ,
                         'border-red-600 dark:border-red-500' : !meta.valid && meta.touched
                }"
