@@ -84,7 +84,7 @@
             </div>
           </div>
           <div class="shadow sm:overflow-hidden sm:rounded-md">
-            <div class="space-y-6 bg-white py-6 px-4 sm:p-6">
+            <div class="space-y-6 bg-white py-10 px-4 sm:p-6">
               <fieldset class="mt-6">
                 <legend class="text-base font-medium text-gray-900">More about you</legend>
                 <div class="flex items-center">
