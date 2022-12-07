@@ -31,7 +31,7 @@
               </div>
               <div class="relative mx-auto max-w-2xl px-4 pt-16 text-center">
                 <p class="mt-4 text-md text-gray-700">48 hours cancellation notice required</p>
-                <p class="mt-4 text-sm text-gray-500"> I reserve the right to charge for any sessions missed without reasonable notice being given</p>
+                <p class="mt-4 text-sm text-gray-500"> * Right reserved to charge for any sessions missed without reasonable notice being given</p>
               </div>
             </div>
             <div class="bg-gray-50 py-8 px-6 text-center lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center lg:p-12">
@@ -42,7 +42,7 @@
 
               <div class="mt-6">
                 <div class="rounded-md shadow">
-                  <nuxt-link to="book-a-call" class="flex items-center justify-center rounded-md border border-transparent bg-yellow-600 hover:text-gray-500 px-5 py-3 text-base font-medium text-white hover:bg-yellow-300">Book a call</nuxt-link>
+                  <!--<nuxt-link to="book-a-call" class="flex items-center justify-center rounded-md border border-transparent bg-yellow-600 hover:text-gray-500 px-5 py-3 text-base font-medium text-white hover:bg-yellow-300">Book a call</nuxt-link>-->
                 </div>
               </div>
             </div>

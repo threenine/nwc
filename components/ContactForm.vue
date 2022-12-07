@@ -31,8 +31,6 @@
 
     <div class="sm:col-span-2">
         <TextArea
-            type="text"
-            as="textarea"
             name="message"
             placeholder="How can I help"
             class="block w-full rounded-md border-gray-300 shadow-sm focus:border-gray-500 focus:ring-gray-500 sm:text-sm"
@@ -46,15 +44,18 @@
       <p class="text-red-600 dark:text-red-500">
         Please correct the following errors:
       </p>
+      <div class="clear">
       <ul>
-        <li
-            v-for="(message, field) in formErrors"
-            :key="field"
-            class="text-red-600 dark:text-red-500"
-        >
-          {{ message }}
-        </li>
+      <li
+      v-for="(message, field) in formErrors"
+      :key="field"
+      class="text-red-600 dark:text-red-500"
+      >
+      {{ message }}
+      </li>
       </ul>
+      </div>
+
     </template>
     <div class="text-right sm:col-span-2">
       <button
@@ -85,10 +86,10 @@ configure({
 });
 
 const schema = Yup.object({
-   email: Yup.string().required().email().max(255).label("Email Address"),
-  firstName: Yup.string().required().label("Firstname"),
-  lastName: Yup.string().required().label("Lastname"),
-  message: Yup.string().required().max(1500).label("a message")
+email: Yup.string().required().email('enter a valid e-mail').max(255).label("Email Address"),
+  firstName: Yup.string().required('Firstname is required').max(75).label("Firstname"),
+  lastName: Yup.string().required('Lastname is required').max(75).label("Lastname"),
+  message: Yup.string().required('a message is required').max(1500).label("a message")
 });
 
 const sendEmail = (values, actions) => {
