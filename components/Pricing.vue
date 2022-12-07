@@ -17,13 +17,13 @@
               <p class="mt-6 text-base text-gray-500">After a brief call to determine how I might be able to help, you can book as many sessions you feel you may need.</p>
               <div class="mt-8">
                 <div class="flex items-center">
-                  <h4 class="flex-shrink-0 bg-white pr-4 text-base font-semibold text-pink-400">What's included</h4>
+                  <h4 class="flex-shrink-0 bg-white pr-4 text-base font-semibold text-pink-400">Sessions available</h4>
                   <div class="flex-1 border-t-2 border-gray-200" />
                 </div>
                 <ul role="list" class="mt-8 space-y-5 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 lg:space-y-0">
                   <li v-for="feature in includedFeatures" :key="feature" class="flex items-start lg:col-span-1">
                     <div class="flex-shrink-0">
-                      <CheckCircleIcon class="h-5 w-5 text-green-400" aria-hidden="true" />
+                      <CheckCircleIcon class="h-6 w-6 text-green-400" aria-hidden="true" />
                     </div>
                     <p class="ml-3 text-sm text-gray-700">{{ feature }}</p>
                   </li>
@@ -42,7 +42,7 @@
 
               <div class="mt-6">
                 <div class="rounded-md shadow">
-                  <nuxt-link to="book-session" class="flex items-center justify-center rounded-md border border-transparent bg-yellow-600 hover:text-gray-500 px-5 py-3 text-base font-medium text-white hover:bg-yellow-300">Book a session</nuxt-link>
+                  <nuxt-link to="book-a-call" class="flex items-center justify-center rounded-md border border-transparent bg-yellow-600 hover:text-gray-500 px-5 py-3 text-base font-medium text-white hover:bg-yellow-300">Book a call</nuxt-link>
                 </div>
               </div>
             </div>

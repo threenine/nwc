@@ -72,12 +72,10 @@
 
 <script setup>
 
-import {object, string} from "yup";
+import * as Yup from "yup";
 import {configure} from "vee-validate";
-import emailjs from "emailjs-com";
+import {sendContactEmail } from "~/services/sendContactEmail";
 
-
-const config = useRuntimeConfig()
 
 configure({
   validateOnBlur: true,
@@ -86,20 +84,17 @@ configure({
   validateOnModelUpdate: true,
 });
 
-const schema = object({
-  email: string()
-      .required()
-      .email()
-      .label("Email Address"),
-  firstName: string().required().label("Firstname"),
-  lastName: string().required().label("Lastname"),
-  message: string().required().max(1500).label("a message")
+const schema = Yup.object({
+   email: Yup.string().required().email().max(255).label("Email Address"),
+  firstName: Yup.string().required().label("Firstname"),
+  lastName: Yup.string().required().label("Lastname"),
+  message: Yup.string().required().max(1500).label("a message")
 });
+
 const sendEmail = (values, actions) => {
-  emailjs.send(config.public.emailjs_api_service_id, config.public.emailjs_api_template_id, values, config.public.emailjs_ap_public_key)
-      .then(() => {
-        actions.resetForm();
-      });
+      sendContactEmail(values).then(() => {
+            actions.resetForm();
+         })
 }
 const initialValues = {email: "", firstName: "", lastName: "", message: ""};
 

@@ -23,27 +23,24 @@
 
             <div class="grid grid-cols-6 gap-6">
               <div class="col-span-6 sm:col-span-3">
-                <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
-                <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                <input type="text" name="first-name" id="first-name" autocomplete="given-name" placeholder="Firstname"
                        class="mt-1 block w-full rounded-md border border-gray-300 py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"/>
               </div>
 
               <div class="col-span-6 sm:col-span-3">
-                <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
-                <input type="text" name="last-name" id="last-name" autocomplete="family-name"
+                <input type="text" name="last-name" id="last-name" autocomplete="family-name" placeholder="Lastname"
                        class="mt-1 block w-full rounded-md border border-gray-300 py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"/>
               </div>
 
               <div class="col-span-6 sm:col-span-4">
-                <label for="email-address" class="block text-sm font-medium text-gray-700">Email address</label>
-                <input type="text" name="email-address" id="email-address" autocomplete="email"
+                <input type="text" name="email-address" id="email-address" autocomplete="email" placeholder="Email"
                        class="mt-1 block w-full rounded-md border border-gray-300 py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"/>
               </div>
 
 
               <div class="col-span-6 sm:col-span-4">
-                <label for="street-address" class="block text-sm font-medium text-gray-700">Mobile Number</label>
                 <input type="text" name="street-address" id="street-address" autocomplete="street-address"
+                       placeholder="Mobile"
                        class="mt-1 block w-full rounded-md border border-gray-300 py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"/>
               </div>
 
@@ -88,14 +85,14 @@
               <fieldset class="mt-6">
                 <legend class="text-base font-medium text-gray-900">More about you</legend>
                 <div class="flex items-center">
-
-<TextArea
-    type="text"
-    as="textarea"
-    name="message"
-    placeholder="How can I help"
-    class="block w-full rounded-md border-gray-300 shadow-sm focus:border-gray-500 focus:ring-gray-500 sm:text-sm"
-/>
+                  <TextArea
+                      type="text"
+                      as="textarea"
+                      name="message"
+                      rows="100"
+                      placeholder="How can I help"
+                      class="block w-full rounded-md border-gray-300 shadow-sm focus:border-gray-500 focus:ring-gray-500 sm:text-sm"
+                  />
 
 
                 </div>
@@ -105,7 +102,7 @@
 
 
           <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
-            <button type="submit"
+            <button @click="onSubmit"
                     class="inline-flex justify-center rounded-md border border-transparent bg-yellow-600 py-2 px-4 text-sm font-medium text-gray-100 hover:text-gray-500 shadow-sm hover:bg-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2">
               Book
             </button>
@@ -118,7 +115,6 @@
 </template>
 
 <script lang="ts" setup>
-
 
 </script>
 

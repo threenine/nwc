@@ -1,8 +1,9 @@
 <template>
 
-  <Field :name="name" v-slot="{ field, meta, errors}">
+  <Field :name="name" v-slot="{ field, meta, errors}" as="textarea">
     <textarea v-bind="field"
-              rows="10"
+              :rows="rows"
+              class="focus:border-yellow-500 focus:ring-yellow-500"
               :class="{'border-green-600 dark:border-green-500' : meta.valid && meta.touched ,
                         'border-red-600 dark:border-red-500' : !meta.valid && meta.touched
                }"
@@ -14,7 +15,7 @@
 
 </template>
 
-<script setup>
+<script lang="ts" setup>
 const props = defineProps({
   type: {
     type: String,
@@ -27,6 +28,10 @@ const props = defineProps({
   placeholder: {
     type: String,
     default: "",
+  },
+  rows: {
+    type: String,
+    default: ""
   }
 });
 </script>
