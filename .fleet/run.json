@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "dev",
+            "program": "yarn",
+            "args": ["dev"],
+        },
+        {
+            "type": "command",
+            "name": "build",
+            "program": "yarn",
+            "args": ["build"],
+        },
+        {
+            "type": "command",
+            "name": "test",
+            "program": "yarn",
+            "args": ["test"],
+        },
+    ]
+}

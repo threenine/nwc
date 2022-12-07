@@ -26,8 +26,9 @@ export default defineNuxtConfig({
             emailjs_api_service_id: process.env.emailjs_api_service_id,
             emailjs_api_template_id: process.env.emailjs_api_template_id,
             emailjs_ap_public_key: process.env.emailjs_ap_public_key
-        }
+        },
+
+    },
 
 
-    }
 })

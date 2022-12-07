@@ -28,17 +28,11 @@
            <ContactForm />
 
           </div>
-          <div class="prose prose-lg prose-indigo mx-auto mt-6 text-gray-500">
-            <span class="text-2xl font-bold">Fees and Availability </span>
-            <p>Sessions are £40 and last 50 minutes. Normally, I like to have a brief call with you before our first
-              session to discuss how I might be able to help.</p>
-            <p>I accept payment via bank transfer, contactless card payment or cash</p>
-            <p>Please note that if you wish to cancel an appointment, I require 48 hours’ notice. I reserve the right to
-              charge for any sessions missed without reasonable notice being given.</p>
-          </div>
+
         </div>
       </div>
     </div>
+    <pricing />
   </div>
 </template>
 
