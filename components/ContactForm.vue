@@ -33,7 +33,6 @@
         <TextArea
             name="message"
             placeholder="How can I help"
-            rows=10
             class="block w-full rounded-md border-gray-300 shadow-sm focus:border-gray-500 focus:ring-gray-500 sm:text-sm"
         />
         <div class="flex">
