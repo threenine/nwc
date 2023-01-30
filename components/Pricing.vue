@@ -17,7 +17,7 @@
               <p class="mt-6 text-base text-gray-500">After a brief call to determine how I might be able to help, you can book as many sessions you feel you may need.</p>
               <div class="mt-8">
                 <div class="flex items-center">
-                  <h4 class="flex-shrink-0 bg-white pr-4 text-base font-semibold text-pink-400">Sessions available</h4>
+                  <h4 class="flex-shrink-0 bg-white pr-4 text-base font-semibold text-yellow-400">Sessions available</h4>
                   <div class="flex-1 border-t-2 border-gray-200" />
                 </div>
                 <ul role="list" class="mt-8 space-y-5 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 lg:space-y-0">

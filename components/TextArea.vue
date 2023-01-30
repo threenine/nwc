@@ -2,7 +2,7 @@
 
   <Field :name="name" v-slot="{ field, meta, errors}" as="textarea">
     <textarea v-bind="field"
-              :rows="rows"
+              :rows=rows
               class="focus:border-yellow-500 focus:ring-yellow-500"
               :class="{'border-green-600 dark:border-green-500' : meta.valid && meta.touched ,
                         'border-red-600 dark:border-red-500' : !meta.valid && meta.touched
@@ -30,8 +30,8 @@ const props = defineProps({
     default: "",
   },
   rows: {
-    type: String,
-    default: ""
+    type: Number,
+    default: 10
   }
 });
 </script>

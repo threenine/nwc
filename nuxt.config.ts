@@ -3,8 +3,10 @@ export default defineNuxtConfig({
     typescript: {
         strict: true
     },
-    modules: [ '@nuxtjs/tailwindcss'],
-
+    modules: [ '@nuxtjs/tailwindcss', '@nuxt/content'],
+    build: {
+        transpile: ['@tailwindcss/typography','@tailwindcss/aspect-ratio','@tailwindcss/forms']
+    },
     tailwindcss: {
         config: {
             darkMode: "media" ,

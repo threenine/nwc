@@ -1,0 +1,77 @@
+backend:
+  name: git-gateway
+  branch: master
+  repo: threenine/nwc
+publish_mode: editorial_workflow
+site_url: https://natashawoodfine.com
+logo_url: https://threenine.co.uk/images/threenine_tag.png
+display_url: https://natashawoodfine.com
+show_preview_links: true
+media_folder: "public/images"
+public_folder: "/images"
+collections:
+    - name: "products"
+      identifier_field: title
+      label: "Products"
+      folder: "content/products"
+      format: 'frontmatter'
+      create: true
+      slug: "{{dirname}}/{{slug}}"
+      fields:
+          - {label: "Title", name: "title", widget: "string", required: true }
+          - {label: "Description", name: "description", widget: "string", required: true}
+          - {label: "Summary" , name: "summary", widget: "text" }
+          - label: "Links"
+            name: "links"
+            widget: "object"
+            fields:
+              - label: "Website"
+                name: "website"
+                widget: "object"
+                fields:
+                  -  { label: "Title", name: "title", widget: "string",  required: true }
+                  -  { label: "Url", name: "url", widget: "string",  required: true }
+              - label: "Nuget"
+                name: "nuget"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string",  required: true }
+                  - { label: "Url", name: "url", widget: "string",  required: true }
+              - label: "Github"
+                name: "github"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string",  required: true }
+                  - { label: "Url", name: "url", widget: "string",  required: true }
+          - label: "Product Image"
+            name: "productImage"
+            widget: "object"
+            fields:
+              [
+               { label: "Image", name: "url", widget: "image" },
+               { label: "Title", name: "title", widget: "string" },
+              ]
+          - {label: "Body", name: "body", widget: "markdown" }
+
+    - name: "legals"
+      label: "Legals"
+      folder: "content/legals"
+      create: true
+      slug: "{{dirname}}/{{slug}}"
+      identifier_field: "title"
+      fields:
+        - { label: "Title", name: "title", widget: "string", required: true }
+        - { label: "Heading", name: "heading", widget: "string", required: true }
+        - { label: "Description", name: "description", widget: "string", required: true }
+        - { label: "Summary" , name: "summary", widget: "string" }
+        - { label: "Version", name: "version", widget: "string", required: true }
+        - { label: "Version Date", name: "versionDate", widget: "string", required: true }
+        - { label: "Body", name: "body", widget: "markdown" }
+        - label: "Banner Image"
+          name: "bannerImage"
+          widget: "object"
+          fields:
+            [
+             { label: "Image", name: "url", widget: "image" },
+             { label: "Title", name: "title", widget: "string" },
+            ]

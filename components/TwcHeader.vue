@@ -9,11 +9,7 @@
           </nuxt-link>
         </div>
         <br/>
-        <div class="text-center">
-          <nuxt-link class="flex" to="/contact">
-            <span class="text-md text-center font-bold text-gray-500">Contact</span>
-          </nuxt-link>
-        </div>
+
       </div>
     </div>
   </div>
