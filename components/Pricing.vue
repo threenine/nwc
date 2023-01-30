@@ -54,7 +54,7 @@
 </template>
 
 <script lang="ts" setup>
-import { CheckCircleIcon } from '@heroicons/vue/20/solid'
+import { CheckCircleIcon } from '@heroicons/vue/20/solid/index'
 const includedFeatures = [
   'Face to Face sessions',
   'Over the phone',
