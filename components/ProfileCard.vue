@@ -3,7 +3,7 @@
 <template>
   <div class="text-center">
     <img
-        src="images/natasha-woodfine.jpg"
+        src="/images/natasha-woodfine.jpg"
         class="rounded-lg w-64 mb-4 mx-auto"
         alt="Natasha Woodfine"
     />
