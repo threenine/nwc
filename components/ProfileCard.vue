@@ -8,7 +8,8 @@
         alt="Natasha Woodfine"
     />
     <h5 class="text-xl font-medium leading-tight mb-2">Natasha Woodfine</h5>
-    <p class="text-gray-500">Counsellor</p>
+
+    <img src="/images/bacp-logo.png" class="rounded-lg w-64 mx-auto mt-5 mb-5" />
   </div>
 
 </template>
