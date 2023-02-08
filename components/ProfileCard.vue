@@ -7,9 +7,12 @@
         class="rounded-lg w-64 mb-4 mx-auto"
         alt="Natasha Woodfine"
     />
-    <h5 class="text-xl font-medium leading-tight mb-2">Natasha Woodfine</h5>
-
-    <img src="/images/bacp-logo.png" class="rounded-lg w-64 mx-auto mt-5 mb-5" />
+    <p class="text-xl font-medium leading-tight mb-5">Natasha Woodfine</p>
+    <a href="https://www.psychologytoday.com/gb/counselling/natasha-woodfine-swindon-eng/1048568" class="text-sm font-medium leading-tight mb-5">Counsellor, MBACP</a>
+    <img src="/images/bacp-logo.png" class="rounded-lg w-64 mx-auto mt-5 mb-5"
+         title="British Association for Counselling and Psychotherapy"
+         alt="BACP registered member"
+    />
   </div>
 
 </template>
