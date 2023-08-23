@@ -76,6 +76,7 @@
 import * as Yup from "yup";
 import {configure} from "vee-validate";
 import {sendContactEmail } from "~/services/sendContactEmail";
+import TextInput from "./TextInput.vue";
 
 
 configure({

@@ -23,7 +23,7 @@
                 <ul role="list" class="mt-8 space-y-5 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 lg:space-y-0">
                   <li v-for="feature in includedFeatures" :key="feature" class="flex items-start lg:col-span-1">
                     <div class="flex-shrink-0">
-                      <CheckCircleIcon class="h-6 w-6 text-green-400" aria-hidden="true" />
+                      <Icon name="heroicons:check-circle-20-solid" class="h-6 w-6 text-green-400" aria-hidden="true" />
                     </div>
                     <p class="ml-3 text-sm text-gray-700">{{ feature }}</p>
                   </li>
@@ -54,7 +54,7 @@
 </template>
 
 <script lang="ts" setup>
-import { CheckCircleIcon } from '@heroicons/vue/20/solid/index'
+
 const includedFeatures = [
   'Face to Face sessions',
   'Over the phone',
