@@ -3,6 +3,11 @@
     <nuxt-page></nuxt-page>
   </nuxt-layout>
 </template>
-<script>
-
+<script lang="ts" setup>
+useHead({
+  title: 'Natasha Woodfine Counselling',
+  script: [
+    {src: ''},
+  ]
+})
 </script>
