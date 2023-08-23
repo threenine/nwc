@@ -1,4 +1,4 @@
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 
 const config = useRuntimeConfig()
 export default defineEventHandler(async (event) => {

@@ -22,11 +22,11 @@
     "@tailwindcss/typography": "^0.5.7",
     "@ubclaunchpad/vue-fathom": "^2.0.0",
     "@vee-validate/rules": "^4.7.1",
-    "emailjs-com": "^3.2.0",
+    "@emailjs/browser": "^3.11.0",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.2.1",
     "unplugin-icons": "^0.14.14",
-    "vee-validate": "^4.7.1",
-    "yup": "^0.32.11"
+    "vee-validate": "^4.10.6",
+    "@vee-validate/yup": "^4.10.6"
   }
 }

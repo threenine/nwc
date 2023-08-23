@@ -1,4 +1,4 @@
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 
 export async function sendContactEmail(values : any)  : Promise<Boolean> {
     const config = useRuntimeConfig();
